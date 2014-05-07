@@ -1,0 +1,256 @@
+body{
+	background: #f6f8f8;
+	color: #4C4C4C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0;
+}
+
+ul{
+	
+	padding: 0;
+	margin: 0;
+}
+
+li {
+		list-style: none;
+}
+
+/* 
+#profilePic{
+	position: absolute;
+	top: 40px;
+	left: 45px;
+}*/
+
+
+a, a:visited {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	color: #446DB2;
+	text-decoration: none;
+}
+
+
+
+/*               CSS for controls 				*/
+
+#topControls{
+	position: absolute;
+	top: -10px;
+	left: 980px;
+}
+
+#pageControls{
+	position: absolute;
+	top: 165px;
+	left: 250px;
+	
+	font-size: 25px;
+}
+/*		CSS for Appointments(Doctor)	*/
+
+#appointmentBox{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+	
+}
+
+table.appointmentTable{
+	font-size: 22px;
+	text-align: center;
+}
+
+.main_wrapper{
+	position: relative;
+	height: 580px;
+}
+
+.content_wrapper{
+	position: relative;
+	height: 431px;
+	width: 1106px;
+	background: #fff;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.content_main{
+	top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	
+}
+
+.banner-container{
+	
+	/*position: relative;*/
+	background: #333;
+	height: 388px;
+	margin: 0px;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+	box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+
+.headbanner{
+	top:43px;
+	position: relative;
+	height: 448px;
+	width: 1106px;
+	background: #333 url('../img/header.png') no-repeat;
+	margin: 0 auto;
+}
+
+#menu_container{
+	background: #000;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 43px;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+	box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+
+#menu_wrapper {
+	max-width: 1106px;
+	margin: 0 auto;
+}
+
+#menu_wrapper ul.main_menu_left{
+	float: left;
+	border-left: 1px solid rgba(255, 255, 255, 0.11);
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+#menu_wrapper ul li .top_menu {	
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.11);
+	padding: 8px 20px;
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal !important;
+	display: inline-block;
+	height: 27px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+#menu_wrapper ul li a.top_menu_right {	
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.11);
+	padding: 8px 20px;
+	color: white;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	display: inline-block;
+	height: 27px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+#menu_wrapper ul li {
+	float: left;
+}
+
+#menu_wrapper ul.main_menu_right{
+	color: white;
+	font-size: 12px;
+	position: relative;
+	float: right;
+	/* border-left: 1px solid rgba(255, 255, 255, 0.11);
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1); */
+}
+
+.search_bar{
+	margin-top: 10px;
+	color: white;
+	
+}
+
+.search_bar_wrapper {
+	border-left: 0px !important;
+}
+
+#menu_wrapper ul li:hover .top_menu{
+	color: #000;
+	background: #fff;
+	text-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+#menu_wrapper ul li:active .top_menu{
+	color: #fff;
+	background: #ff5050;
+	text-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+#menu_wrapper ul li:hover .top_menu_right{
+	color: #000;
+	background: #fff;
+	text-shadow: none;
+	box-shadow: none;
+	/* border-right: 1px solid #446CB3*/;
+	cursor: pointer;
+}
+/*     end of appointment(Doctor)	*/
+/*
+input{
+	color: gray;
+	display: inline-block;
+	width: 210px;
+	padding: 4px;
+	margin-right: 10px;
+	margin: 0;
+	outline: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	font-size: 13px;
+	line-height: 8px;
+	
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	
+}*/
+
+.clearance{
+	height: 43px;
+}
+
+.present_appointments{
+	border: 1px solid;
+
+	height: 250px;
+	width: 850px;
+	
+	overflow: auto;
+}
+
+.old_appointments{
+	border: 1px solid;
+
+	height: 250px;
+	width: 850px;
+	
+	overflow: auto;
+}

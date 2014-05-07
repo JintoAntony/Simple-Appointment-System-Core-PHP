@@ -1,0 +1,74 @@
+table.calendar{ 
+border-left:1px solid #999; 
+}
+
+tr.calendar-row	{  }
+
+td.calendar-day	{ 
+
+min-height:80px; 
+font-size:11px; 
+position:relative; 
+} 
+
+* html div.calendar-day { height:80px; }
+
+td.calendar-day:hover	{ background:#eceff5; }
+
+td.calendar-day-np	{ 
+
+background:#eee; 
+min-height:80px; 
+} 
+
+
+td.calendar-day-blocked	{ 
+
+background:#eee; 
+min-height:80px; 
+color:#B80000;
+padding:8px;
+color:#000; 
+font-weight:bold;
+text-align:center;
+} 
+
+
+* html div.calendar-day-np { height:80px; }
+
+td.calendar-day-days { 
+
+background:#ccc; 
+font-weight:bold; 
+text-align:center; 
+width:120px; 
+padding:5px; 
+border-bottom:1px solid #999; 
+border-top:1px solid #999; 
+border-right:1px solid #999; }
+
+td.calendar-day-month { 
+
+background:#ccc; 
+font-weight:bold; 
+text-align:center; 
+width:120px; 
+padding:5px; 
+border-bottom:1px solid #999; 
+border-top:1px solid #999; 
+border-right:1px solid #999; }
+
+div.day-number{ 
+
+/*background:#999; */
+padding:8px;
+color:#000; 
+font-weight:bold; 
+/*float:right; 
+margin:-5px -5px 0 0; */
+/*width:20px; */
+text-align:center; 
+
+}
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; padding:5px; border-bottom:1px solid #999; border-right:1px solid #999; }

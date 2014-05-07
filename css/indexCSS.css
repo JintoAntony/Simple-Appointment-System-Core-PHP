@@ -1,0 +1,13 @@
+#userInfo{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+
+#userInfo table{
+	font-size: 19px;
+}
+
+#userInfo table tr{
+	margin-top: 5px;
+}
